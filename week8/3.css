@@ -1,0 +1,28 @@
+*{
+    direction:rtl;
+    font-family:iransansweb;
+  }
+  html , body{
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  p{
+    font-weight:bold;
+    color:orange;
+    /* --- خاصیت کوتاه شده ی انیمیشن --- */
+    animation: scale 2s forwards;
+  }
+  
+  @keyframes scale{
+    0%{
+      transfrom:scale(0);
+    }
+    80%{
+      transform:scale(2.5);
+    }
+    100%{
+      transform:scale(2.3);
+    }
+  }
